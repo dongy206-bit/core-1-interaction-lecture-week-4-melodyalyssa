@@ -3,3 +3,6 @@ body {
   background-color: rgb(242, 251, 180);
   min-height: 100vh;
 }
+:hover {
+  background-color: rgb(194, 41, 41);
+}
