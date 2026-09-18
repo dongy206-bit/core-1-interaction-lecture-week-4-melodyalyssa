@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <p>Melody can make changes here</p>
+    <p>Alyssa can make changes here</p>
+    <h1>We are learning about HTML!</h1>
+  </body>
+   <style>
+            h1 { font-size: 80px; margin-top: 150px; color: hsl(0, 0%, 0%); }
+
+            .image-popup {position: relative; display: inline-block; cursor: pointer;
+            }
+            .popup-image {display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); z-index: 1; max-width: 300px; max-height: 300px; border: 1px solid #ccc; background-color: #fff; padding: 10px;}
+            .image-popup:hover .popup-image {display: block;}
+        </style>
+         <body style="background-color: beige;text-align: center;"> 
+  <div class="image-popup">
+            <a href="sink.jpg" target="_blank">THE SINK</a>
+            <img src="sink.jpg" alt="sink" class="popup-image">
+        </div>
+<br><br>
+        <div class="image-popup">
+            <a href="toilet.jpeg" target="_blank">THE TOILET</a>
+            <img src="toilet.jpeg" alt="toilet" class="popup-image">
+        </div>
+</html>
